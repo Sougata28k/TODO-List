@@ -5,18 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/main.css">
-    
+
     <title>Todo List</title>
 </head>
 <body>
+    
     <div class="container">
-        <h1>Todo List</h1>
+        <div class="date-container">
+            <p class="date-text
+            " id="current-date">Today's date will be displayed here.</p>
+        </div>
+        <h1>Agenda</h1>
         <ul id="todo-list">
             <!-- To-Do items will be rendered here -->
         </ul>
         <div id="add-task">
             <input type="text" id="task-input" placeholder="Add a new task">
-            <button id="add-button">Add</button>
+            <button id="add-button">+</button>
         </div>
     </div>
     <script src="/script.js"></script>
